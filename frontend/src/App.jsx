@@ -3,7 +3,7 @@ import axios from 'axios';
 import ReactMarkdown from 'react-markdown';
 import { Send, Bot, User, Trash2, Wifi, WifiOff, Database } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://chatbotmaman.vercel.app';
 
 const INITIAL_MESSAGE = {
   role: 'bot',
