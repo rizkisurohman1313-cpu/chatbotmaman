@@ -1,5 +1,9 @@
 flask
 flask-cors
 google-generativeai
+groq
+openai
+cohere
+requests
 python-dotenv
 gunicorn
