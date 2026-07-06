@@ -174,10 +174,10 @@ def call_huggingface(history, system_prompt):
 # FALLBACK ORCHESTRATOR: Mencoba semua 6 mesin secara berurutan
 # ============================================================
 ENGINES = [
-    ("Gemini",       call_gemini),
     ("Groq",         call_groq),
     ("NVIDIA NIM",   call_nvidia),
     ("OpenRouter",   call_openrouter),
+    ("Gemini",       call_gemini),
     ("Cohere",       call_cohere),
     ("Hugging Face", call_huggingface),
 ]
